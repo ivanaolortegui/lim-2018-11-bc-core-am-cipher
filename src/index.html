@@ -7,8 +7,27 @@
   </head>
   <body>
     <div id="root"></div>
-    <h1> "Hola mundo"</h1>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<div>  <h1> Bienvenido Al Guardian de Palabras</h1>  </div>
+  <div><h2>Escribe el mensaje secreto </h2> </div>
+    <form>
+     <label for="text-example"></label>
+     <input type="text" id="text-input" placeholder=" Ingresa Tu Mensaje Secreto" name="text-example" required/>
+     <label for="number-example"></label>
+     <input type="number" min="1" id="number-input" placeholder="Ingresa Tu Clave Secreta En numero" name="number-example" required/>
+ </form>
+ <h3> <form>
+    <label for="button-example"></label>
+    <input type="button" name="myButton2" value="Cifrar" id="cifrar" >
+    <label for="button-example"></label>
+    <input type="button" name="myButton2" value="Descifrar" id="descifrar">
+  </form>
+</h3>
+
+
+ <h4>Tu mesaje es <p id="result"></p> </h4>
+ <p id="result"></p>
+ <footer>Ivana Project</footer>
+ <script src="cipher.js"></script>
+ <script src="index.js"></script>
+</body>
 </html>
