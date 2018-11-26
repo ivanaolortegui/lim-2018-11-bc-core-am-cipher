@@ -19,9 +19,7 @@ window.cipher = {
  } else {
    output=output.concat(string[i]);
  }
-    }
-    
-
+    }  
    return output;
    },
  };
