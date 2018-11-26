@@ -8,7 +8,6 @@ window.cipher = {
          output=output.concat(string[i]);
        }
      }
-     console.log('salida= '+output);
     return output;
   },
    decode: (offset,string) => {
@@ -21,7 +20,6 @@ window.cipher = {
    output=output.concat(string[i]);
  }
     }
-   console.log('salida= '+output);
    return output;
    },
  };
