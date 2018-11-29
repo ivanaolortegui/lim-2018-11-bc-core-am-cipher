@@ -4,8 +4,6 @@ body {
   background-size:cover;
   font: 1.2em Arial, Helvetica, sans-serif;
   padding: 70px 0 0 0;
-
-
 }
 h1 {
   color: #006400;
@@ -21,8 +19,6 @@ color: #556B2F;
 font-family: verdana;
 font-size: 70px;
 text-align: center;
-
-
 }
 
 input[type=text]{
@@ -57,9 +53,6 @@ input[type=number]{
 }
 input[type=number]:focus{
   width: 270px;
-
-
-
 }
 input[type=button] {
   color:#08233e;
@@ -82,18 +75,15 @@ input[type=button] {
 input[type=button]:hover {
  background-color:#2F4F4F;
 }
-
  h4 {
  color: #2F4F4F;
   position: relative;
   left: 40%;
-
 }
 p {
 color: 	#2F4F4F;
  position: relative;
  right:: 30%;
-
 }
   footer {
     font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
