@@ -7,26 +7,21 @@
   </head>
   <body>
     <div id="root"></div>
-<div>  <h1> Bienvenido Al Guardian de Palabras</h1>  </div>
-  <div><h2>Escribe el mensaje secreto </h2> </div>
-    <form>
-     <label for="text-example"></label>
-     <input type="text" id="text-input" placeholder=" Ingresa Tu Mensaje Secreto" name="text-example" required/>
-     <label for="number-example"></label>
-     <input type="number" min="1" id="number-input" placeholder="Ingresa Tu Clave Secreta En numero" name="number-example" required/>
- </form>
- <h3> <form>
-    <label for="button-example"></label>
-    <input type="button" name="myButton2" value="Cifrar" id="cifrar" >
-    <label for="button-example"></label>
-    <input type="button" name="myButton2" value="Descifrar" id="descifrar">
-  </form>
-</h3>
-
-
- <h4>Tu mesaje es <p id="result"></p> </h4>
- <p id="result"></p>
- <footer>Ivana Project</footer>
+    <header>
+      <main class="encabezado">
+        <h1> Amor Cifrado</h1>
+      </main>
+    </header>
+    <section class="text">
+      <h2>Escribe tu mensaje aquí:</h2>
+      <textarea name="textarea" id="text-input" cols="50" rows="5" placeholder=" Ingresa Tu Mensaje Secreto" required></textarea>
+      <h3>Ingresa un número de desplazamiento:</h3>
+      <input type="number" min="1" id="number-input" placeholder="Llave Secreta" maxlength="5" required/>
+      <button id="cifrar" value="Cifrar">Cifrar</button>
+      <button id="descifrar" value="Descifrar">Descifrar</button>
+      <h4>Este es el resultado de tu mensaje:</h4>
+      <textarea name="textarea" id="result" cols="50" rows="5"> </textarea>
+    </section>
  <script src="cipher.js"></script>
  <script src="index.js"></script>
 </body>
