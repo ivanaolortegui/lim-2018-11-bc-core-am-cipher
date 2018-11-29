@@ -1,48 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
-*{
+* {
   box-sizing: border-box;
-  }
-
-body{
-margin:0px 0 0px 0;
-font-family: 'Indie Flower', cursive;
+  background-color: #FFCCFF;
 }
-.encabezado{
+
+body {
+  margin:0px 0 0px 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+.encabezado {
   border : 6px inset #B22222;
   background-color: #CC0066;
   text-align : center;
   padding : 20px;
   font-size: 30px;
 }
-header{
-  margin:0px auto 0px auto;
 
+header {
+  margin:0px auto 0px auto;
 }
-section{
+
+section {
   margin:0px auto 0px auto;
   padding: 10px;
-  height: 100%;
-  width: 100%;
 }
-.text{
+
+h1{
+  background-color: #CC0066;
+}
+
+.text {
   text-align : center;
   padding : 1%;
   font-size: 20px;
   background-color: #FFCCFF;
-  border: 0;
-  height: 100%;
-  width: 100%;
-
-
 }
+
+h2 {
+  background-color: #FFCCFF;
+}
+
 textarea {
   background-color: #FA8072;
   border: none;
   text-align : center;
   border-radius: 10px;
   margin-top: 0;
-  font-size: 20px;
+  font-size: 85%;
   height: 140px;
   width: 80%;
   margin-left: 10%;
@@ -53,9 +59,9 @@ textarea {
   box-shadow: 0 0 40px #03f;
 }
 
-input[type=number]{
+input[type=number] {
   background-color: #FFA07A;
-  width: 200px;
+  width: 30%;
   height: 40px;
   border:1px solid:#2F4F4F;
   border-radius: 9px;
@@ -65,12 +71,13 @@ input[type=number]{
   padding: 0;
   box-sizing:border-box;
 }
-button{
+
+button {
   color: #FFA07A !important;
   width: 100px;
-  height: 30px;
-  font-size: 20px;
-  font-weight: 500;
+  height: 40px;
+  font-size: 80%;
+  font-weight: 500%;
   padding: 0;
   background: #696969;
   position: relative;
@@ -81,10 +88,23 @@ button{
   outline-color: rgba(49, 138, 172, 0.4);
   transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
 button:hover {
   box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
   outline-color: rgba(49, 138, 172, 0);
   outline-offset: 80px;
   text-shadow: 1px 1px 6px #FFA07A;
   border-shadow:
+}
+
+@media screen and (max-width: 500px) {
+  .encabezado {
+    height: 80px;
+  }
+  h1, h2{
+    font-size: large;
+  }
+  input[type=number]{
+    width: 70%;
+  }
 }
