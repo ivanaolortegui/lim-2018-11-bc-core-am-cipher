@@ -2,10 +2,13 @@
 
 * {
   box-sizing: border-box;
-  background-color: #FFCCFF;
 }
 
 body {
+background: url("img/corazon-alas.jpg") no-repeat center center fixed;
+ background-attachment: fixed;
+ background-size: cover;
+ margin: 0;
   margin:0px 0 0px 0;
   font-family: 'Indie Flower', cursive;
 }
@@ -27,20 +30,13 @@ section {
   padding: 10px;
 }
 
-h1{
-  background-color: #CC0066;
-}
 
 .text {
   text-align : center;
   padding : 1%;
   font-size: 20px;
-  background-color: #FFCCFF;
 }
 
-h2 {
-  background-color: #FFCCFF;
-}
 
 textarea {
   background-color: #FA8072;
@@ -98,6 +94,11 @@ button:hover {
 }
 
 @media screen and (max-width: 500px) {
+  body {
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+  }
   .encabezado {
     height: 80px;
   }
