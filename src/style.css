@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
-** {
+* {
   box-sizing: border-box;
 }
 
 body {
-background: url("imagenes/corazon-alas.jpg") no-repeat center center fixed;
+background: url("img/corazon-alas.jpg") no-repeat center center fixed;
  background-attachment: fixed;
  background-size: cover;
  margin: 0;
- margin:0px 0 0px 0;
+  margin:0px 0 0px 0;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -91,7 +91,7 @@ button:hover {
   outline-color: rgba(49, 138, 172, 0);
   outline-offset: 80px;
   text-shadow: 1px 1px 6px #FFA07A;
-  border-shadow:
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -108,3 +108,5 @@ button:hover {
   }
   input[type=number]{
     width: 70%;
+  }
+}
