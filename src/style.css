@@ -5,80 +5,167 @@
 }
 
 body {
-background: url("img/corazon-alas.jpg") no-repeat center center fixed;
+ background: url("img/fondo.png") no-repeat center center fixed;
  background-attachment: fixed;
  background-size: cover;
  margin: 0;
-  margin:0px 0 0px 0;
-  font-family: 'Indie Flower', cursive;
+ margin:0px 0 0px 0;
+ font-family: 'Indie Flower', cursive;
 }
 
-.encabezado {
-  border : 6px inset #B22222;
-  background-color: #CC0066;
-  text-align : center;
-  padding : 20px;
-  font-size: 30px;
+.top-nav {
+  background-color: white;
+  margin-top: 0px;
+  height: 20%;
+  padding: 2.5%;
+  left: 0px;
+  top: 0px;
+  
 }
 
-header {
-  margin:0px auto 0px auto;
+.logo {
+  position: absolute;
+  width: 6%;
+  left: 12px;
+  top: 0px; 
 }
 
+.nav-section {
+position: absolute;
+right: 1px;
+top: 23px;
+
+}
+
+.nav-menu{
+  padding: 0 27px;
+  color: #8F1919;
+  font-family: Volkhov;
+  font-style: italic;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 19px;
+}
+.nav-menu:hover{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 section {
   margin:0px auto 0px auto;
   padding: 10px;
 }
-
 
 .text {
   text-align : center;
   color: #BA60BA;
   padding : 1%;
   font-size: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1{
+  font-family: Volkhov;
+  font-style: italic;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 36px;
+  color: #B939A4;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.datails{
+  background-color: white;
+  margin-top: 0px;
+  height: 20%;
+  padding: 0% 9px 0px 149px;
+  left: 0px;
+  top: 0px;
+}
 
+.image-details{
+  max-width: 10%;
+  height: auto; 
+  position: absolute;
+  left: 15px;
+  top: 190px;
+  
+}
+
+h2 {
+ text-align: left;
+ font-family: Volkhov;
+ font-style: italic;
+ font-weight: bold;
+ line-height: normal;
+ font-size: 24px;
+ color: #8F1919;
+ font-size: 24px;
+}
+h3 {
+  font-family: Volkhov;
+  font-style: italic;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 27px;
+  color: #BA60BA;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main{
+  text-align: center;
+  border: 1px solid #812773;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #812773;
+  margin: 0% 23%;
+}
+p {
+  text-align: center;
+  font-family: Volkhov;
+  font-style: italic;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  color: #8F1919;
+  font-size: 24px;
+
+}
 textarea {
-  background-color: #AFBEDC;
+  background: rgba(253, 253, 253, 0.59);
   border: none;
   text-align : center;
-  border-radius: 10px;
+  border-radius: 14px;
   margin-top: 0;
   font-size: 85%;
-  height: 140px;
-  width: 80%;
-  margin-left: 10%;
+  height: 120px;
+  width: 96%;
+  margin-left: 2%;
   box-sizing: border-box;
   resize: none;
   padding: 0;
   display: block;
-  box-shadow: 0 0 40px #03f;
+  box-shadow: 0px 4px 4px #E39ED8;
 }
 
 input[type=number] {
-  background-color: #AFBEDC;
+  background: rgba(185, 57, 164, 0.14);
   width: 30%;
   height: 40px;
-  border:1px solid:#2F4F4F;
+  border:1px solid #2F4F4F;
   border-radius: 9px;
-  margin:0;
   outline: none;
   text-align: center;
   padding: 0;
   box-sizing:border-box;
+
 }
 
 button {
-  color: #FFA07A !important;
   width: 100px;
   height: 40px;
   font-size: 80%;
   font-weight: 500%;
   padding: 0;
-  background: #696969;
   position: relative;
-  border: 2px solid #696969;
+  background: #812773;
+  border-radius: 30px;
+  color: #E5E5E5 !important;
   border-radius:10px;
   cursor:pointer;
   outline: 1px solid;
@@ -94,13 +181,17 @@ button:hover {
   
 }
 
+.next {
+  padding: 5% 3% 1% 82%;
+}
+
 @media screen and (max-width: 500px) {
   body {
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
   }
-  .encabezado {
+  .top-nav {
     height: 80px;
   }
   h1, h2{

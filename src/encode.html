@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <header>
+      <nav class="top-nav">
+          <figure>  <a href="index.html">
+            <img class="logo" src="img/valentine.png" alt="valentine-logo"> </a>
+          </figure>
+          <div class="nav-section" >
+            <a class="nav-menu">Inicio</a>
+            <a class="nav-menu">Cifrar</a>  
+            <a class="nav-menu">Descifrar</a>  
+            <a class="nav-menu">Instruciones</a>  
+            <a class="nav-menu">Contactenos</a>  
+        </div>
+      </nav>
+    </header>
+    <section class="text">
+        <h1> Valentine's Cipher Code </h1>
+      </section>
+        <main>
+        <div>  
+        <p>Escribe tu mensaje aquí:</p>
+        <textarea name="textarea" id="text-input" cols="50" rows="5" placeholder=" Ingresa Tu Mensaje Secreto" required></textarea>
+      </div>
+      <div>
+        <div>
+          <p>Ingresa un número de desplazamiento:</p>
+          <input type="number" min="1" id="number-input" placeholder="Llave Secreta" maxlength="5" required/>
+        </div>
+        
+          <button id="cifrar" value="Cifrar">Cifrar</button>
+          <button id="descifrar" value="Descifrar">Descifrar</button>
+        
+      </div>
+      <div>
+        <p>Este es el resultado de tu mensaje:</p>
+        <textarea name="textarea" id="result" cols="50" rows="5"> </textarea>
+      </div>
+    </main>
+ <script src="cipher.js"></script>
+ <script src="index.js"></script>
+</body>
+</html>

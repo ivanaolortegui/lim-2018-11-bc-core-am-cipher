@@ -9,29 +9,39 @@
   <body>
     <div id="root"></div>
     <header>
-      <main class="encabezado">
-        <h1> Amor Cifrado</h1>
-      </main>
+      <nav class="top-nav">
+          <figure> <a href="index.html">
+              <img class="logo" src="img/valentine.png" alt="valentine-logo">
+            </a>
+          </figure>
+          <div class="nav-section" >
+            <a class="nav-menu">Inicio</a>
+            <a class="nav-menu">Cifrar</a>  
+            <a class="nav-menu">Descifrar</a>  
+            <a class="nav-menu">Instruciones</a>  
+            <a class="nav-menu">Contactenos</a>  
+        </div>
+      </nav>
     </header>
     <section class="text">
-      <div>
-        <h2>Escribe tu mensaje aquí:</h2>
-        <textarea name="textarea" id="text-input" cols="50" rows="5" placeholder=" Ingresa Tu Mensaje Secreto" required></textarea>
+        <h1> Valentine's Cipher Code </h1>
+      <div class="datails">
+        <h2> En el último día de San Valentín,  Anna le escribio una tarjeta anonima a Harry . 
+Anna es tímida  y no consiguio otra forma de expresarse que por medio de palabras escritas.
+Sin embargo, la tarjeta que escribio  tenía un lenguaje muy peculiar. En la parte frontal estaba el mensaje de forma encriptada y en la parte trasera unos numeros que era la clave.
+Esta app fue creada para personas como Anna, puedan escribir sus mensajes y ser cifrados para proteger su privacidad  y para descifralos y descubrir el significado de los mensajes.  
+        </h2>
+        <img class="image-details" src="img/chica.jpg" alt="">
       </div>
-      <div>
-        <div>
-          <h2>Ingresa un número de desplazamiento:</h2>
-          <input type="number" min="1" id="number-input" placeholder="Llave Secreta" maxlength="5" required/>
-        </div>
-        <div>
-          <button id="cifrar" value="Cifrar">Cifrar</button>
-          <button id="descifrar" value="Descifrar">Descifrar</button>
-        </div>
-      </div>
-      <div>
-        <h2>Este es el resultado de tu mensaje:</h2>
-        <textarea name="textarea" id="result" cols="50" rows="5"> </textarea>
-      </div>
+    <section>
+        <a href="encode.html">
+      <h3> 
+        COMENCEMOS
+      </h3> 
+    </a>
+      
+    </section>  
+      
     </section>
  <script src="cipher.js"></script>
  <script src="index.js"></script>
